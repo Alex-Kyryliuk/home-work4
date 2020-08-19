@@ -21,26 +21,28 @@ footer {
 }
 
 #home_banner>h1 {
-   /* position: absolute; */
+    position: absolute;
     text-align: center;
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 3rem;
     text-transform: uppercase;
     color: #75ded5;
+    padding: 20px 387px;
 }
 
 nav {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .left {
-    margin: 10px 440px 10px 0;
+    margin: 40px 440px 40px 0;
 }
 
 .right {
-    margin: 10px 0 10px 490px;
+    margin: 40px 0 40px 490px;
 }
 
 .menu_left {
@@ -91,8 +93,7 @@ ul.menu_right>li:hover {
 }
 
 ul.menu_left>li:nth-child(1),
-ul.menu_right>li:nth-child(1) {
-}
+ul.menu_right>li:nth-child(1) {}
 
 main>article {
     padding: 30px 0 0 0;
